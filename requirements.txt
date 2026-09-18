@@ -1,0 +1,88 @@
+# =========================
+# OPENAI / GPT API
+# =========================
+
+openai>=1.30.0
+# Official OpenAI SDK for GPT-4o and GPT-4o-mini API access
+
+python-dotenv>=1.0.1
+# Loads API keys from .env files securely
+
+
+# =========================
+# CORE NLP / TRANSFORMERS
+# =========================
+
+transformers>=4.40.0
+# Provides pretrained NLP models like XLM-R, mBERT, DistilBERT
+
+datasets>=2.18.0
+# HuggingFace dataset handling library
+
+tokenizers>=0.15.0
+# Fast tokenizer backend for transformer models
+
+accelerate>=0.30.0
+# Efficient training/inference utilities for transformers
+
+tiktoken>=0.7.0
+# Fast tokenizer backend used in modern LLM workflows
+
+sentencepiece>=0.2.0
+# Required for XLM-R and multilingual tokenizers
+
+protobuf>=4.25.0
+# Required dependency for tokenizer/model compatibility
+
+torch>=2.2.0
+# Deep learning framework used for transformer training/inference
+
+
+# =========================
+# DATA HANDLING
+# =========================
+
+pandas>=2.2.0
+# Dataset loading and manipulation
+
+numpy>=1.26.0
+# Numerical operations
+
+openpyxl>=3.1.0
+# Excel file support
+
+
+# =========================
+# MACHINE LEARNING / METRICS
+# =========================
+
+scikit-learn>=1.4.0
+# Metrics, evaluation, train/test split
+
+evaluate>=0.4.0
+# HuggingFace evaluation utilities
+
+
+# =========================
+# VISUALIZATION
+# =========================
+
+matplotlib>=3.8.0
+# Plotting graphs and charts
+
+seaborn>=0.13.0
+# Statistical visualizations
+
+
+# =========================
+# UTILITIES
+# =========================
+
+tqdm>=4.66.0
+# Progress bars
+
+requests>=2.31.0
+# HTTP utilities and compatibility
+
+tenacity>=8.2.3
+# Optional retry handling for API calls

@@ -1,0 +1,14 @@
+{
+    "pipeline": "albanian_aware",
+    "model": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+    "seed": 42,
+    "max_length": 128,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "train_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 16,
+    "accuracy": 0.7074742268041238,
+    "macro_f1": 0.647876833917496,
+    "weighted_f1": 0.7028519177133146
+}

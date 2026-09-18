@@ -1,0 +1,14 @@
+{
+    "pipeline": "traditional",
+    "model": "cardiffnlp/twitter-xlm-roberta-base-sentiment",
+    "seed": 42,
+    "max_length": 128,
+    "epochs": 3,
+    "learning_rate": 2e-05,
+    "train_batch_size": 4,
+    "gradient_accumulation_steps": 4,
+    "effective_batch_size": 16,
+    "accuracy": 0.6945876288659794,
+    "macro_f1": 0.6223378542816502,
+    "weighted_f1": 0.6818587832959757
+}
